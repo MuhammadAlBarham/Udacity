@@ -1,0 +1,48 @@
+#card{
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+
+#interesting-fact{
+
+    font-style: italic;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+#facts{
+
+    font-weight:bold;
+    list-style: none;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#card{
+
+    border : solid;
+
+}
+
+#container{
+    
+    border : solid;
+    padding: 2px;
+
+}
+
+.animal-info{
+
+
+}
