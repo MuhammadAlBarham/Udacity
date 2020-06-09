@@ -1,0 +1,15 @@
+/* Add CSS rules here! */
+
+.contanier{
+  
+    width: 300px;
+    heigth: 300px;
+   }
+   
+   
+   .box{
+     width: 100px;
+     height :100px;
+     float :right ;
+   }
+   
