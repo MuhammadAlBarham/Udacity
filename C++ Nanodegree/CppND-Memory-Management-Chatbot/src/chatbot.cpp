@@ -51,7 +51,10 @@ ChatBot::~ChatBot()
 
 ChatBot::ChatBot( const ChatBot &source) {
   
-    _image = source._image ; 
+  
+     // Make deep copy with image; so the source images will not change  
+    _image = new wxBitmap(*source._image); 
+  
   
     _chatLogic = source._chatLogic ;
     _rootNode = source._rootNode ;
@@ -71,7 +74,10 @@ ChatBot &ChatBot::operator=(const ChatBot &source) {
 
   if(_image != NULL)  delete _image; 
   
-     _image = source._image ; 
+     // Make deep copy with image; so the source images will not change  
+
+     _image = new wxBitmap(*source._image) ; 
+  
     _chatLogic = source._chatLogic ;
     _rootNode = source._rootNode ;
     _currentNode = source._currentNode ;
